@@ -1,0 +1,62 @@
+* {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 10pt;
+}
+
+#app {
+  margin: 1em;
+}
+
+.search-box {
+  margin-bottom: 1em;
+  width: 215px;
+}
+
+.search-box label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.search-box input {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-left: auto;
+}
+
+.books {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.book {
+  margin-right: 1em;
+  margin-bottom: 1em;
+  padding-right: 1em;
+  width: 180px;
+}
+
+.book-detail-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.book-detail-key {
+  margin-right: 1em;
+  font-size: 9pt;
+  color: #333;
+}
+/*# sourceMappingURL=styles.css.map */
